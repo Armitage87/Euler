@@ -1,0 +1,174 @@
+body {
+	background-color: #fff0aa;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	min-width: 1300px;
+}
+
+#linkedin {
+	position: relative;
+	background-color: #7788aa;
+	height: 20px;
+	width: 100%;
+	display: block;
+}
+
+#linkedin img {
+	max-height: 20px;
+	float: right;
+	margin: auto;
+	padding-right: 4%;
+}
+
+#linkedin p {
+	color: #d6dce8;
+	font-size: 0.8em;
+	float: right;
+	margin: auto;
+	padding-right: 10px;
+}
+
+#linkedin p:hover {
+	transform: skew(-10deg);
+}
+
+#linkedin img:hover {
+	transform: skew (-10deg);
+}
+
+.top_bar {
+	height: 50px;
+	background-color: #bea6cc;
+	overflow: hidden;
+	border-bottom: 1px solid #4a4b4c;
+	padding: 1% 2% 1% 2%;
+	display: block;
+	position: relative;
+	width: 96%;
+	min-width: 900px;
+}
+
+.top_bar h1 {
+	color: #2e4372;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	margin: auto;
+}
+
+.top_bar p {
+	color: #2e4372;
+	font-size: 0.8em;
+	text-align: center;
+	margin: auto;
+}
+
+#title {
+	float: left;
+	width: 60%;
+	margin: auto;
+}
+
+#euler {
+	float: left;
+	margin-left: 2%;
+}
+
+#odin {
+	float: right;
+	margin-right: 2%;
+}
+
+#odin img {
+	maxt-height: 50px;
+}
+
+.main {
+	overflow: hidden;
+	margin: 3% 4% 3% 4%;
+	display: block;
+	position: relative;
+	min-width: 1300px;
+}
+
+.main div {
+	display: inline-block;
+	width: 30%;
+	margin: 0px 15px 0 auto;
+	border: 1px solid #aa9639;
+	border-bottom: 2px solid #aa9639;
+	border-right: 2px solid #aa9639;
+	background-color: #fffbe8;
+	padding: 0px 10px 20px 10px;
+	text-align: justify;
+	border-radius: 5px;
+}
+
+.main h3 {
+	font-size: 1.2em;
+	line-height: 0.5em;
+	color: #2e4372;
+	text-align: center;
+}
+
+.main h5 {
+	font-size: 0.9em;
+	line-height: 1.2em;
+	color: #2e4372;
+	text-align: center;
+	border-bottom: 1px solid #aa9639;
+}
+
+.main p {
+	font-size: 0.8em;
+	color: #2e4372;
+}
+
+.main input {
+	width: 98%;
+	margin: 10px auto 10px auto;
+	height: 40px;
+	font-size: 24px;
+	font-weight: bolder;
+	padding-left: 10px;
+	border: 1px solid #aa9639;
+	border-radius: 5px;
+}
+
+.main button {
+	width: 100%;
+	margin: 10px auto 10px auto;
+	height: 5-px;
+	font-size: 24px;
+	color: #2e4372;
+	border-radius: 5px;
+	background-color: #fffbe8;
+	border: 2px solid #aa9639
+}
+
+.main button:hover {
+	border: 3px dotted #3a7999;
+	color: #3a7999;
+	background: rgba(0,0,0,0);
+}
+
+.main button:active {
+	background-color: #84404e;
+}
+
+.main .result {
+	width: 96.5%;
+	margin-top: 20px;
+	height: 80px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+.main h2 {
+	font-size: 3em;
+	font-weight: bolder;
+	line-height: 0.5em;
+	color: #2e4372;
+	text-align: center;
+}
